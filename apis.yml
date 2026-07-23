@@ -1,24 +1,85 @@
 aid: atomicjar
 name: AtomicJar
-description: 'AtomicJar is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: devops. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  AtomicJar is a developer-testing company, founded in 2021 by the original
+  creators and maintainers of the open-source Testcontainers project and
+  acquired by Docker in December 2023. AtomicJar builds tooling that lets
+  developers run reliable integration tests against real service dependencies
+  (databases, message brokers, and other systems) defined in code and wrapped
+  in Docker containers, replacing brittle mocks and in-memory fakes. Its product
+  line spans Testcontainers OSS (the open-source libraries for Java, .NET, Go,
+  Node.js, Python, Rust, and more), Testcontainers Desktop (a companion app for
+  local development), and Testcontainers Cloud (a hosted service that offloads
+  container execution to the cloud so tests run consistently from a laptop
+  through CI without a local Docker daemon). AtomicJar and its Testcontainers
+  products are used by engineering teams at companies including Spotify, Uber,
+  Capital One, Elastic, Netflix, and Zalando.
 url: https://raw.githubusercontent.com/api-evangelist/atomicjar/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.atomicjar.com/wp-content/uploads/2022/08/aj-featured-image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired-by-docker-2023-12
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Devops
+- Testing
+- Integration Testing
+- Testcontainers
+- Containers
+- Developer Tools
+- Continuous Integration
+- Open Source
 apis: []
+common:
+- type: DomainSecurity
+  url: security/atomicjar-domain-security.yml
+- type: Website
+  url: https://www.atomicjar.com/
+- type: DeveloperPortal
+  url: https://testcontainers.com/
+- type: Documentation
+  url: https://testcontainers.com/cloud/docs/
+- type: GettingStarted
+  url: https://testcontainers.com/getting-started/
+- type: Blog
+  url: https://www.atomicjar.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/AtomicJar
+- type: Pricing
+  url: https://testcontainers.com/cloud/pricing/
+- type: SignUp
+  url: https://app.testcontainers.cloud/signup
+- type: Login
+  url: https://app.testcontainers.cloud/login
+- type: Support
+  url: https://slack.testcontainers.org/
+- type: PrivacyPolicy
+  url: https://www.atomicjar.com/privacy-policy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
