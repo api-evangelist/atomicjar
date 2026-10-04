@@ -60,7 +60,7 @@ tags:
 - Containers
 - Developer Tools
 - Continuous Integration
-- Open-Source
+- Open Source
 tags_raw:
 - Company
 - Devops
@@ -71,6 +71,7 @@ tags_raw:
 - Developer Tools
 - Continuous Integration
 - Open Source
+- Open-Source
 apis: []
 common:
 - type: DomainSecurity
